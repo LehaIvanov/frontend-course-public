@@ -96,7 +96,7 @@
 
 - Страница promo - главная страница приложение. Клик по логитипу ведёт на неё.
 
-![страница promo](https://github.com/LehaIvanov/frontend-course/blob/main/json-diff/docs/promo.png)
+![страница promo](https://github.com/LehaIvanov/frontend-course-public/blob/main/json-diff/docs/promo.png)
 
 ### Страница promo, когда пользователь залогинен
 
@@ -104,27 +104,27 @@
   - в шапке появляется приветствие пользователя
   - под промо-текстом появляется ссылка Start, которая ведёт на на форму сравнения json-ов
 
-![страница promo для авторизованного пользователя](https://github.com/LehaIvanov/frontend-course/blob/main/json-diff/docs/promo-logged-in.png)
+![страница promo для авторизованного пользователя](https://github.com/LehaIvanov/frontend-course-public/blob/main/json-diff/docs/promo-logged-in.png)
 
 ### Форма логинации
 
 - авторизация происходит путём сохранения логина пользователя в localStorage
 - если пользователь не ввёл логин и пытается авторизоваться, то выводится сообщение об ошибке
 
-![форма логинации](https://github.com/LehaIvanov/frontend-course/blob/main/json-diff/docs/login.png)
+![форма логинации](https://github.com/LehaIvanov/frontend-course-public/blob/main/json-diff/docs/login.png)
 
-![форма логинации с ошибкой](https://github.com/LehaIvanov/frontend-course/blob/main/json-diff/docs/login-error.png)
+![форма логинации с ошибкой](https://github.com/LehaIvanov/frontend-course-public/blob/main/json-diff/docs/login-error.png)
 
 ### Форма сравнения json-ов
 
 - если пользователь не ввёл json или ввёл невалидный json, то выводится соответствующее сообщение
 
-![форма сравнения json-ов](https://github.com/LehaIvanov/frontend-course/blob/main/json-diff/docs/json-diff.png)
-![форма сравнения json-ов с ошибкой](https://github.com/LehaIvanov/frontend-course/blob/main/json-diff/docs/json-diff-error.png)
+![форма сравнения json-ов](https://github.com/LehaIvanov/frontend-course-public/blob/main/json-diff/docs/json-diff.png)
+![форма сравнения json-ов с ошибкой](https://github.com/LehaIvanov/frontend-course-public/blob/main/json-diff/docs/json-diff-error.png)
 
 ### Отображение результата сравнения json-ов
 
-![форма сравнения json-ов с результатом](https://github.com/LehaIvanov/frontend-course/blob/main/json-diff/docs/json-diff-result.png)
+![форма сравнения json-ов с результатом](https://github.com/LehaIvanov/frontend-course-public/blob/main/json-diff/docs/json-diff-result.png)
 
 ## Пример расчёта разницы между json-ами
 
