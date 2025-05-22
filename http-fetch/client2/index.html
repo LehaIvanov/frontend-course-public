@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+<script>
+  (() => {
+    const load = async () => {
+  const createPostUrl = 'http://localhost:5173';
+
+  const newPostData = {
+    name: 'Alex',
+    age: 32
+  };
+
+  const response = await fetch(createPostUrl, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(newPostData)
+  });
+
+  if (!response.ok) {
+    throw new Error(`Ошибка HTTP: статус ${response.status}`);
+  }
+
+  const result = await response.text();
+
+  console.log('Пост успешно получен:', result);
+};
+
+load();
+  })();
+</script>
+</body>
+</html>
