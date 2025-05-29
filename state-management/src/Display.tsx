@@ -1,6 +1,7 @@
+import { memo } from 'react';
 import { useStore } from './hooks';
 
-export const Display = ({ value }: { value: 'first' | 'last' }) => {
+export const Display = memo(({ value }: { value: 'first' | 'last' }) => {
   const [store] = useStore();
 
   return (
@@ -8,4 +9,4 @@ export const Display = ({ value }: { value: 'first' | 'last' }) => {
       {value}: {store[value]}
     </div>
   );
-};
+});
