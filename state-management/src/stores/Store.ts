@@ -32,4 +32,6 @@ const create = <TValue>(initialValue: TValue) => {
   return { getSnapshot, set, subscribe };
 };
 
+export type Store<TValue> = ReturnType<typeof create<TValue>>;
+
 export const Store = { create };
