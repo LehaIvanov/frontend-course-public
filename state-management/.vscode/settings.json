@@ -1,0 +1,43 @@
+{
+  // editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"], // See https://github.com/microsoft/vscode/pull/92681
+  "editor.rulers": [120],
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  // eslint
+  "eslint.rules.customizations": [
+    {
+      "rule": "*",
+      "severity": "warn"
+    }
+  ],
+  // stylelint
+  "stylelint.validate": ["css"],
+  // cSpell
+  "cSpell.diagnosticLevel": "Warning",
+  "cSpell.enabledLanguageIds": [
+    "css",
+    "scss",
+    "html",
+    "javascript",
+    "json",
+    "markdown",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml",
+    "mdx"
+  ],
+  // files
+  "files.exclude": {
+    ".git": true,
+    ".yarn": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "yarn.lock": true
+  }
+}
