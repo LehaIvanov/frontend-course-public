@@ -1,7 +1,7 @@
-import { useStore } from './hooks'
+import { useStore } from './hooks';
 
 export const TextInput = ({ value }: { value: 'first' | 'last' }) => {
-  const [store, setStore] = useStore()
+  const [store, setStore] = useStore();
 
   return (
     <div className="field">
@@ -11,5 +11,5 @@ export const TextInput = ({ value }: { value: 'first' | 'last' }) => {
         onChange={(e) => setStore({ ...store, [value]: e.target.value })}
       />
     </div>
-  )
-}
+  );
+};
