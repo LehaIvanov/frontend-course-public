@@ -1,6 +1,7 @@
+import { memo } from 'react';
 import { useStore } from './hooks';
 
-export const TextInput = ({ value }: { value: 'first' | 'last' }) => {
+export const TextInput = memo(({ value }: { value: 'first' | 'last' }) => {
   const [store, setStore] = useStore();
 
   return (
@@ -12,4 +13,4 @@ export const TextInput = ({ value }: { value: 'first' | 'last' }) => {
       />
     </div>
   );
-};
+});
