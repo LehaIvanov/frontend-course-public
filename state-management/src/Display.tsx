@@ -1,21 +1,12 @@
-import { memo, useEffect, useState } from 'react';
-import { useStore } from './hooks';
+import { memo } from 'react';
+import { useUser } from './hooks';
 
 export const Display = memo(({ value }: { value: 'first' | 'last' }) => {
-  const store = useStore();
-  const [name, setName] = useState(store.getSnapshot()[value]);
-
-  useEffect(
-    () =>
-      store.subscribe(() => {
-        setName(store.getSnapshot()[value]);
-      }),
-    [store, value]
-  );
+  const user = useUser();
 
   return (
     <div className="value">
-      {value}: {name}
+      {value}: {user[value]}
     </div>
   );
 });
