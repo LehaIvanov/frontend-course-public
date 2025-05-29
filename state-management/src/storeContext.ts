@@ -1,8 +1,6 @@
 import { createContext } from 'react';
-import type { User } from './domain';
+import { Stores } from './stores';
 
-const empty: Store = [{ first: ``, last: `` }, () => {}];
+const { user } = Stores;
 
-type Store = [User, (user: User) => void];
-
-export const storeContext = createContext<Store>(empty);
+export const storeContext = createContext(user);
