@@ -52,4 +52,4 @@
 
 То как работает приложение можно увидеть в видео:
 
-[Demonstration](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/demo.mkv)
+[Demonstration](https://disk.yandex.ru/d/sn5Vci8yIu8cQg/demo.mkv)
