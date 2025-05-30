@@ -10,41 +10,46 @@
 
 Выбор режима: заполнить словарь или проверить знания
 
-(скриншот)
+[Home page](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/index.png)
 
 ### Страница словаря
 
 Содержит список слов и их переводов
 
-(скриншот)
+[Dictionary](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/list.png)
 
 Есть возможность редактирования и удаления
 
-(скриншот)
+[Dictionary menu](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/tooltip.png)
 
 ### Добавление слова
 
 Форма добавления слова и его перевода. Форма должна быть с валидацией (в поля нельзя вводить пустые строки)
 
-(скриншот)
+[Add word](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/add-word.png)
 
 ### Редактирование слова
 
 Форма редактирования слова и его перевода. Форма должна быть с валидацией (в поля нельзя вводить пустые строки)
 
-(скриншот)
+[Edit word](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/edit.png)
 
 ### Страница проверки знаний
 
 На этой странице приложение показывает слова из словаря одно за другим и предлагает пользователю выбрать перевод слова.
 
+[Test](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/test.png)
+
+[Select](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/test-selector.png)
+
 ### Страница результата проверки знаний
 
 Отображает результат тестирования
 
-(Скриншот)
+[Result](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/result.png)
 
 ***У заголовков "вложенных" страниц должа быть кнопка назад, которая ведёт на предыдущую страницу. На видео можно посмотреть это подробнее.***
 
 То как работает приложение можно увидеть в видео:
 
+[Demonstration](https://github.com/LehaIvanov/frontend-course-public/blob/main/words/docs/demo.mkv)
