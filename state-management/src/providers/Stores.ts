@@ -1,5 +1,5 @@
 import type { User } from '../domain';
-import { Store } from './Store';
+import { Store } from '../store/Store';
 
 const user = Store.create<User>({ first: ``, last: `` });
 
