@@ -1,12 +1,11 @@
-import { memo } from 'react';
 import { useUser } from './hooks';
 
-export const Display = memo(({ value }: { value: 'first' | 'last' }) => {
-  const user = useUser();
+export const Display = ({ value }: { value: 'first' | 'last' }) => {
+  const userName = useUser((user) => user[value]);
 
   return (
     <div className="value">
-      {value}: {user[value]}
+      {value}: {userName}
     </div>
   );
-});
+};
