@@ -1,6 +1,6 @@
 # Words
 
-Учебный проект для изучения Material UI, React Router, SCSS, а также для изучения организации State Management-а с помощью внешних Store-ов и хука useSyncExternalStore.
+Учебный проект для изучения Material UI, React Router, SCSS, Zustand.
 
 Данные храним в localStorage. 
 
