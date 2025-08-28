@@ -1,6 +1,6 @@
 # Words
 
-Учебный проект для изучения Material UI, React Router, SCSS, Zustand.
+Учебный проект для изучения Material UI, React Router, SCSS.
 
 Данные храним в localStorage. 
 
